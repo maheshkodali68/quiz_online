@@ -1,0 +1,43 @@
+#data{
+    float: left;
+    margin-left: 30px;
+}
+#homepage{
+    background-image: linear-gradient(rgb(190, 214, 245),rgb(88, 125, 173));
+}
+
+
+#h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#instructions{
+    float: right;
+    width: 675px;
+    padding: 20px;
+}
+#label{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    padding: 5px;
+}
+#input, #dropdown{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    width: 350px;
+}
+
+#start{
+    background-color: rgb(1, 148, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 00px;
+
+}

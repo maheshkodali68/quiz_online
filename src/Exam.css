@@ -1,0 +1,126 @@
+
+#display-question{
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+ background-image: linear-gradient(white,lightblue);
+  height:588px;
+}
+#head{
+  text-align: center;
+  border-bottom: 1px solid gray;
+  box-shadow: 0px 2px lightgray;
+}
+
+#timerAndSubmit{
+  float: right;
+
+  padding-top: 20px;
+  margin-right: 30px;
+}
+#submit{
+  cursor: pointer;
+  margin: 70px 130px 80px 0px;
+  background-color: rgb(118, 252, 65);
+  font-size: 15px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  float: right;
+}
+
+#question-number{
+  padding: 10px;
+}
+
+#question{
+  padding: 20px;
+  font-size: 23px;
+}
+
+#options{
+  padding: 20px;
+}
+#quesbtns{
+  background-image: linear-gradient(white,lightblue);
+}
+
+#btn{
+  padding: 10px;
+  margin: 30px;
+  height: fit-content;
+  width: 300px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  border-radius: 20px;
+}
+#btn:hover{
+  background-color: lightblue;
+  font-size: 18px;
+  padding: 8px;
+}
+#btn:active{
+  background-color:  rgb(119, 194, 219);
+}
+
+#QuestionChange{
+  width: 25%;
+  float: right;
+  margin-top: 50px;
+  background-image: linear-gradient( white, lightblue);
+  }
+
+#QuestionChangebtn1{
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+#QuestionChangebtn{
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid lightblue;
+  border-radius: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+#QuestionChangebtn1:hover, #QuestionChangebtn:hover{
+  background-color: lightblue;
+}
+#QuestionChangebtn1:active, #QuestionChangebtn:active{
+  background-color: rgb(119, 194, 219);
+}
+#nextArrow{
+  float: right;
+  margin:100px;
+}
+#arrowbtn{
+  font-size: 20px;
+  padding: 8px;
+ 
+  border: 1px solid lightblue;
+  border-radius: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  background-image: linear-gradient(rgb(196, 225, 235),lightblue);
+}
+#arrowbtn:hover{
+  background-color: rgb(186, 208, 236);
+}
+#arrowbtn:active{
+  background-color: rgb(139, 166, 201);
+}
+#display-score{
+  text-align: center;
+  font-size: 25px;
+  padding-top: 100px;
+  margin-top: 0%;
+  height: 533px;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(88, 125, 173));
+}
